@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="1" name="Savanna-Preview-API">
+    <Basepaths>/savanna-preview-api</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1542793687993</CreatedAt>
+    <CreatedBy>riddhi_thacker@yahoo.com</CreatedBy>
+    <Description>Use these endpoints to interact with your Zebra printers</Description>
+    <DisplayName>Savanna-Preview-API</DisplayName>
+    <LastModifiedAt>1542793808815</LastModifiedAt>
+    <LastModifiedBy>riddhi_thacker@yahoo.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:190d473ee852be88dcd7b8f02377bc5d5489c33ff135993233a2c625d558e4ebff16ce1688e94486b56406819319f05e287a64429419f1dbb285d0d0ba871f7c</ManifestVersion>
+    <Policies>
+        <Policy>Set-Payload</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>openapi://association.json</Resource>
+    </Resources>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>
