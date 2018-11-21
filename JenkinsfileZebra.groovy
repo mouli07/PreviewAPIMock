@@ -6,7 +6,7 @@ pipeline {
     }
     
     stages {
-        stage('download_stash_code') {
+        stage('Download Git code') {
             steps {
                 checkout scm
             }
@@ -38,7 +38,7 @@ pipeline {
 
             }
         }
- stage('Mock url') {
+ stage('Automated Test') {
             steps { 
      
 
